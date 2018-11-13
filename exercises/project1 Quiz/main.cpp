@@ -55,8 +55,6 @@ int main()
         case 8:
             correct[q_no] = line;
             break;
-        default:
-            break;
         }
         if (line_no == 8)
         {
@@ -93,7 +91,7 @@ int main()
         }
     }
     cout << endl
-         << "That's the end! Your score: " << score;
+         << "That's the end! Your score: " << score << endl;
 
     return 0;
 }
